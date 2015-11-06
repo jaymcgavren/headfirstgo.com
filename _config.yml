@@ -3,8 +3,7 @@ title: Head First Ruby
 email: feedback@headfirstruby.com
 description: > # this means to ignore newlines until "baseurl:"
   The official website for Head First Ruby, written by Jay McGavren and published by O'Reilly Media.
-  If you're a software developer, and you like being productive, then Ruby is the programming language for you.
-  And if you want to quickly gain a deep understanding of Ruby, then Head First Ruby is the book for you!
+  You'll find sample code from the book here, as well as ideas to get you started on your own Ruby projects!
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://headfirstruby.com" # the base hostname & protocol for your site
 twitter_username: headfirstruby
