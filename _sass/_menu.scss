@@ -35,30 +35,31 @@
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
-}
-.chapter .heading {
-    display: inline-block;
-}
-.chapter .chapter-number {
-    font-size: 24pt;
-}
-.chapter .title {
-    font-size: 24pt;
-    color: gray;
-}
-.chapter .buttons {
-    display: block;
-    width: 50%;
-    float: right;
-    margin: 10px;
-}
-.chapter .button {
-    display: inline-block;
-    width: 30%;
-    margin-right: 10px;
-}
-.chapter p {
-    clear: both;
+    
+    .heading {
+        display: inline-block;
+    }
+    .chapter-number {
+        font-size: 24pt;
+    }
+    .title {
+        font-size: 24pt;
+        color: gray;
+    }
+    .buttons {
+        display: block;
+        width: 50%;
+        float: right;
+        margin: 10px;
+    }
+    .button {
+        display: inline-block;
+        width: 30%;
+        margin-right: 10px;
+    }
+    p {
+        clear: both;
+    }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
