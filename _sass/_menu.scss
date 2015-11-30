@@ -13,6 +13,7 @@
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  text-align: center;
 }
 
 .button:hover {
@@ -23,4 +24,48 @@
   background-image: -o-linear-gradient(top, #893cfc, #8f34d9);
   background-image: linear-gradient(to bottom, #893cfc, #8f34d9);
   text-decoration: none;
+}
+
+
+/**
+ * Chapter list
+ */
+.chapter {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.chapter .heading {
+    display: inline-block;
+}
+.chapter .chapter-number {
+    font-size: 24pt;
+}
+.chapter .title {
+    font-size: 24pt;
+    color: gray;
+}
+.chapter .buttons {
+    display: block;
+    width: 50%;
+    float: right;
+    margin: 10px;
+}
+.chapter .button {
+    display: inline-block;
+    width: 30%;
+    margin-right: 10px;
+}
+.chapter p {
+    clear: both;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .chapter .buttons {
+        display: block;
+        width: 100%;
+        float: none;
+        margin-left: 0px;
+    }
 }
