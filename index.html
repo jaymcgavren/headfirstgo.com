@@ -16,24 +16,291 @@ layout: page
     </div>
   </div>
   <p>
-    You're wondering what this Ruby language is all about, and if it's right for you. Let us ask you this: Do you like being productive? Do you feel like all those extra compilers and libraries and class files and keystrokes in your other language bring you closer to a finished product, admiring coworkers, and happy customers? Would you like a language that takes care of the details for you? If you sometimes wish you could stop maintaining boilerplate code and get to work on your problem, then Ruby is for you. Ruby lets you get more done with less code.
+    You're wondering what this Ruby language is all about, and if it's right for you. Let us ask you this: <em>Do you like being productive</em>? Do you feel like all those extra compilers and libraries and class files and keystrokes in your other language bring you closer to a <em>finished product, admiring coworkers, and happy customers</em>? Would you like a language that <em>takes care of the details for you</em>? If you sometimes wish you could stop maintaining boilerplate code and get to work on your problem, then Ruby is for you. Ruby lets you <em>get more done with less code</em>.
   </p>
 </div>
 
 <div class="chapter">
-  <span class="chapter-number">Chapter 2</span><span class="chapter-title">Methods and Classes</span>
+  <div class="heading">
+    <div class="chapter-number">Chapter 2</div>
+    <div class="title">Methods and Classes</div>
+  </div>
+  <div class="buttons">
+    <div class="button">
+      <span>Code Samples</span>
+    </div>
+    <div class="button more-exercises">
+      <span>More Exercises</span>
+    </div>
+  </div>
+  <p>
+    You’ve been calling methods and creating objects like a pro. But the only methods you could call, and the only kinds of objects you could create, were the ones that Ruby defined for you.
+  </p>
+  <p>
+    Now, it’s your turn. You’re going to learn to create your own methods. You’ll also create your own <strong>classes</strong>—templates for new objects. You’ll decide what objects based on your class will be like. You’ll use <strong>instance variables</strong> to define what those objects <em>know</em>, and <strong>instance methods</strong> to define what they <em>do</em>. And most importantly, you’ll discover how defining your own classes can make your code easier to read and maintain.
+  </p>
 </div>
-<span class="chapter-number">Chapter 3</span><span class="chapter-title">Inheritance</span>
-<span class="chapter-number">Chapter 4</span><span class="chapter-title">Initializing Instances</span>
-<span class="chapter-number">Chapter 5</span><span class="chapter-title">Arrays and Blocks</span>
-<span class="chapter-number">Chapter 6</span><span class="chapter-title">Block Return Values</span>
-<span class="chapter-number">Chapter 7</span><span class="chapter-title">Hashes</span>
-<span class="chapter-number">Chapter 8</span><span class="chapter-title">References</span>
-<span class="chapter-number">Chapter 9</span><span class="chapter-title">Mixins</span>
-<span class="chapter-number">Chapter 10</span><span class="chapter-title">Comparable and Enumerable</span>
-<span class="chapter-number">Chapter 11</span><span class="chapter-title">Documentation</span>
-<span class="chapter-number">Chapter 12</span><span class="chapter-title">Exceptions</span>
-<span class="chapter-number">Chapter 13</span><span class="chapter-title">Unit Testing</span>
-<span class="chapter-number">Chapter 14</span><span class="chapter-title">Web Apps</span>
-<span class="chapter-number">Chapter 15</span><span class="chapter-title">Saving and Loading Data</span>
-<span class="chapter-number">Appendix</span><span class="chapter-title">What We Didn't Cover</span>
+
+<div class="chapter">
+  <div class="heading">
+    <div class="chapter-number">Chapter 3</div>
+    <div class="title">Inheritance</div>
+  </div>
+  <div class="buttons">
+    <div class="button">
+      <span>Code Samples</span>
+    </div>
+    <div class="button more-exercises">
+      <span>More Exercises</span>
+    </div>
+  </div>
+  <p>
+    Your new classes representing the different types of vehicles and animals are awesome, it’s true. But you’re having to copy instance methods from class to class. And the copies are starting to fall out of sync—some are fine, while others have bugs. Weren’t classes supposed to make code easier to maintain?
+  </p>
+  <p>
+    In this chapter, we’ll learn how to use <strong>inheritance</strong> to let your classes <em>share</em> methods. Fewer copies means fewer maintenance headaches!
+  </p>
+</div>
+
+<div class="chapter">
+  <div class="heading">
+    <div class="chapter-number">Chapter 4</div>
+    <div class="title">Initializing Instances</div>
+  </div>
+  <div class="buttons">
+    <div class="button">
+      <span>Code Samples</span>
+    </div>
+    <div class="button more-exercises">
+      <span>More Exercises</span>
+    </div>
+  </div>
+  <p>
+    Every instance you create starts out as a clean slate. If you call certain instance methods before adding data, an error will be raised that will bring your whole program to a screeching halt. In this chapter, we’re going to show you a couple of ways to create objects that are safe to use right away. We’ll start with the <code>initialize</code> method, which lets you pass in a bunch of arguments to set up an object’s data <em>at the time you create it</em>. Then we’ll show you how to write <strong>class methods</strong>, which you can use to create and set up an object <em>even more easily</em>.
+  </p>
+</div>
+
+<div class="chapter">
+  <div class="heading">
+    <div class="chapter-number">Chapter 5</div>
+    <div class="title">Arrays and Blocks</div>
+  </div>
+  <div class="buttons">
+    <div class="button">
+      <span>Code Samples</span>
+    </div>
+    <div class="button more-exercises">
+      <span>More Exercises</span>
+    </div>
+  </div>
+  <p>
+    A whole lot of programming deals with lists of things. Lists of addresses. Lists of phone numbers. Lists of products. Matz, the creator of Ruby, knew this. So he worked <em>really hard</em> to make sure that working with lists in Ruby is <em>really easy</em>. First, he ensured that <strong>arrays</strong>, which keep track of lists in Ruby, have lots of <em>powerful methods</em> to do almost anything you might need with a list. Second, he realized that writing code to loop over a list to do something with each item, although tedious, is something developers were doing a lot. So he added <strong>blocks</strong> to the language, and removed the need for all that looping code. What is a block, exactly? Read on to find out...
+  </p>
+</div>
+
+<div class="chapter">
+  <div class="heading">
+    <div class="chapter-number">Chapter 6</div>
+    <div class="title">Block Return Values</div>
+  </div>
+  <div class="buttons">
+    <div class="button">
+      <span>Code Samples</span>
+    </div>
+    <div class="button more-exercises">
+      <span>More Exercises</span>
+    </div>
+  </div>
+  <p>
+    Up until now, you've just seen methods handing data off to a block, and expecting the block to handle everything. But a block can also <em>return data</em> to the method. This feature lets the method get directions from the block, allowing it to <em>do more</em> of the work.
+  </p>
+  <p>
+    In this chapter, we’ll show you some methods that will let you take a big, complicated collection, and use <strong>block return values</strong> to cut it down to size.
+  </p>
+</div>
+
+<div class="chapter">
+  <div class="heading">
+    <div class="chapter-number">Chapter 7</div>
+    <div class="title">Hashes</div>
+  </div>
+  <div class="buttons">
+    <div class="button">
+      <span>Code Samples</span>
+    </div>
+    <div class="button more-exercises">
+      <span>More Exercises</span>
+    </div>
+  </div>
+  <p>
+    You’ve already seen how to create a collection of objects using an array. You’ve seen how to process each item in an array, and how to <em>find items you want</em>. In both cases, you start at the beginning of the array, and look through Every. Single. Object. You’ve also seen methods that take big collections of parameters. You’ve seen the problems this causes: method calls require a big, confusing collection of arguments that you have to remember the exact order for.
+  </p>
+  <p>
+    What if there were a kind of collection where all the data had labels on it? You could <em>quickly find</em> the elements you needed! In this chapter, we’ll learn about Ruby <strong>hashes</strong>, which do just that.
+  </p>
+</div>
+
+<div class="chapter">
+  <div class="heading">
+    <div class="chapter-number">Chapter 8</div>
+    <div class="title">References</div>
+  </div>
+  <div class="buttons">
+    <div class="button">
+      <span>Code Samples</span>
+    </div>
+    <div class="button more-exercises">
+      <span>More Exercises</span>
+    </div>
+  </div>
+  <p>
+    Ever sent an email to the wrong contact? You probably had a hard time sorting out the confusion that ensued. Well, Ruby objects are <em>just like those contacts</em> in your address book, and calling methods on them is like <em>sending messages</em> to them. If your address book gets mixed up, it’s possible to send messages to the wrong object. This chapter will help you <em>recognize the signs</em> that this is happening, and help you get your programs running <em>smoothly</em> again.
+  </p>
+</div>
+
+<div class="chapter">
+  <div class="heading">
+    <div class="chapter-number">Chapter 9</div>
+    <div class="title">Mixins</div>
+  </div>
+  <div class="buttons">
+    <div class="button">
+      <span>Code Samples</span>
+    </div>
+    <div class="button more-exercises">
+      <span>More Exercises</span>
+    </div>
+  </div>
+  <p>
+    You can only inherit methods from <em>one</em> class. But what if you need to share <em>several sets of behavior</em> across several classes? Like methods for starting a battery charge cycle and reporting its charge level—you might need those methods on phones, power drills, and electric cars. Are you going to create a single superclass for all of those? (It won’t end well if you try.) Or methods for starting and stopping a motor. Sure, the drill and the car might need those, but the phone won’t!
+  </p>
+  <p>
+    In this chapter, we’ll learn about <strong>modules</strong> and <strong>mixins</strong>, a <em>powerful way to group methods</em> together and then share them only with particular classes that need them.
+  </p>
+</div>
+
+<div class="chapter">
+  <div class="heading">
+    <div class="chapter-number">Chapter 10</div>
+    <div class="title">Comparable<br/>and Enumerable</div>
+  </div>
+  <div class="buttons">
+    <div class="button">
+      <span>Code Samples</span>
+    </div>
+    <div class="button more-exercises">
+      <span>More Exercises</span>
+    </div>
+  </div>
+  <p>
+    You’ve seen that mixins can be useful. But you haven’t seen their full power yet. The Ruby core library includes two mixins that will <em>blow your mind</em>.
+  </p>
+  <p>
+    The first, <code>Comparable</code>, is used for comparing objects. You’ve used operators like <code>&lt;</code>, <code>&gt;</code>, and <code>==</code> on numbers and strings, but <code>Comparable</code> will let you use them on your classes.
+  </p>
+  <p>
+    The second mixin, <code>Enumerable</code>, is used for working with collections. Remember those super-useful <code>find_all</code>, <code>reject</code>, and <code>map</code> methods that you used on arrays before? Those came from <code>Enumerable</code>. But that’s a tiny fraction of what <code>Enumerable</code> can do. And again, you can mix it into your classes. Read on to see how!
+  </p>
+</div>
+
+<div class="chapter">
+  <div class="heading">
+    <div class="chapter-number">Chapter 11</div>
+    <div class="title">Documentation</div>
+  </div>
+  <div class="buttons">
+    <div class="button">
+      <span>Code Samples</span>
+    </div>
+    <div class="button more-exercises">
+      <span>More Exercises</span>
+    </div>
+  </div>
+  <p>
+    There’s an old saying: “Give someone a fish, and you feed them for a day. Teach them how to fish, and you feed them for a lifetime.” We’ve been <em>giving you fish</em> so far. We’ve shown you how to use a few of Ruby’s classes and modules. But there are dozens more, some of them applicable to your problems, that we don’t have room to cover. So it’s time to <em>teach you how to fish</em>. There’s excellent <strong>documentation</strong> freely available on all of Ruby’s classes, modules, and methods. You just have to know where to find it, and how to interpret it. That’s what this chapter will show you.
+  </p>
+</div>
+
+<div class="chapter">
+  <div class="heading">
+    <div class="chapter-number">Chapter 12</div>
+    <div class="title">Exceptions</div>
+  </div>
+  <div class="buttons">
+    <div class="button">
+      <span>Code Samples</span>
+    </div>
+    <div class="button more-exercises">
+      <span>More Exercises</span>
+    </div>
+  </div>
+  <p>
+    In the real world, the unexpected happens. Someone could delete the file your program is trying to load, or the server your program is trying to contact could go down. Your code could check for these exceptional situations, but those checks would be mixed in with the code that handles normal operation. (And that would be a big, unreadable mess.)
+  </p>
+  <p>
+    This chapter will teach you all about Ruby’s <strong>exception handling</strong>, which lets you write code to <em>handle the unexpected</em>, and keep it separate from your regular code.
+  </p>
+</div>
+
+<div class="chapter">
+  <div class="heading">
+    <div class="chapter-number">Chapter 13</div>
+    <div class="title">Unit Testing</div>
+  </div>
+  <div class="buttons">
+    <div class="button">
+      <span>Code Samples</span>
+    </div>
+    <div class="button more-exercises">
+      <span>More Exercises</span>
+    </div>
+  </div>
+  <p>
+    Are you sure your software is working right now? <em>Really</em> sure? Before you sent that new version to your users, you presumably tried out the new features to ensure they all worked. But did you try the old features to ensure you didn’t break any of them? <em>All</em> the old features? If that question makes you uneasy, your program needs automated testing. Automated tests ensure your program’s components work correctly, even after you change your code.
+  </p>
+  <p>
+    <strong>Unit tests</strong> are the most common, most important type of automated test. And Ruby includes <code>MiniTest</code>, a library devoted to unit testing. This chapter will teach you everything you need to know about it!
+  </p>
+</div>
+
+<div class="chapter">
+  <div class="heading">
+    <div class="chapter-number">Chapter 14</div>
+    <div class="title">Web Apps</div>
+  </div>
+  <div class="buttons">
+    <div class="button">
+      <span>Code Samples</span>
+    </div>
+    <div class="button more-exercises">
+      <span>More Exercises</span>
+    </div>
+  </div>
+  <p>
+    This is the 21st century. Users want web apps. Ruby’s got you covered there, too! Libraries are available to help you host your own web applications and make them accessible from any web browser. So we’re going to spend these final two chapters of the book showing you how to build a full web app.
+  </p>
+  <p>
+    To get started, you’re going to need Sinatra, a third-party library for writing web applications. But don’t worry, we’ll show you how to use the RubyGems tool (included with Ruby) to <em>download and install libraries automatically</em>! Then we’ll show you just enough HTML to <em>create your own web pages</em>. And of course, we’ll show you how to serve those pages to a browser!
+  </p>
+</div>
+
+<div class="chapter">
+  <div class="heading">
+    <div class="chapter-number">Chapter 15</div>
+    <div class="title">Saving and<br/>Loading Data</div>
+  </div>
+  <div class="buttons">
+    <div class="button">
+      <span>Code Samples</span>
+    </div>
+    <div class="button more-exercises">
+      <span>More Exercises</span>
+    </div>
+  </div>
+  <p>
+    You’ve set up a form for users to <em>enter</em> data into. They’re expecting that you’ll </em>save it, so that it can be <em>retrieved</em> and <em>displayed</em> to others later. But that’s not happening right now! Anything they submit just disappears.
+  </p>
+  <p>
+    In this, our final chapter, we’ll prepare your app to save user submissions. We’ll show you how to set it up to accept form data. We’ll show you how to convert that data to Ruby objects, how to save those objects to a file, and how to retrieve the right object again when a user wants to see it. Are you ready? <em>Let’s finish this app</em>!
+  </p>
+</div>
