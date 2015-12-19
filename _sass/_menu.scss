@@ -1,3 +1,7 @@
+.page-content {
+    min-width: $content-width;
+}
+
 .button {
   background: #5a0bb5;
   background-image: -webkit-linear-gradient(top, #5a0bb5, #260169);
@@ -34,10 +38,13 @@
     background: white;
     padding: 20px;
     border-radius: 5px;
+    margin-left: 30%;
     margin-bottom: 20px;
     
     .heading {
+        width: 45%;
         display: inline-block;
+        margin-top: 10px;
         margin-bottom: 20px;
     }
     .chapter-number {
@@ -53,6 +60,7 @@
         width: 50%;
         float: right;
         margin: 10px;
+        margin-bottom: 20px;
         text-align: right;
     }
     .button {
@@ -62,11 +70,22 @@
         position: relative;
     }
     p {
-        clear: both;
         em {
             margin-right: 1px;
         }
     }
+}
+
+/***
+ * Site info sidebar
+ */
+.book-sidebar {
+    width: 24%;
+    float: left;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 .comingsoon {
@@ -79,7 +98,20 @@
     width: 100%;
     height: 100%;
 }
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .page-content { min-width: 320px }
+    .book-sidebar {
+        width: 100%;
+        float: none;
+    }
+    .chapter {
+        margin-left: 0;
+    }
+    .chapter .heading {
+        display: block;
+        width: 100%
+    }
     .chapter .buttons {
         display: block;
         width: 100%;
