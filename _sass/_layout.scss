@@ -235,3 +235,50 @@
         }
     }
 }
+
+
+/**
+ * Content
+ */
+.chapter, .exercises {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-bottom: 20px;
+    
+    .heading {
+        width: 45%;
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .chapter-number {
+        font-size: 24pt;
+    }
+    .title {
+        font-size: 24pt;
+        color: gray;
+        line-height: 120%;
+    }
+    .buttons {
+        display: block;
+        width: 50%;
+        float: right;
+        margin: 10px;
+        margin-bottom: 20px;
+        text-align: right;
+    }
+    .button {
+        display: inline-block;
+        width: 30%;
+        margin-right: 10px;
+        position: relative;
+    }
+    p {
+        em {
+            margin-right: 1px;
+        }
+    }
+}
+
