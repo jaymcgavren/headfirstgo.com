@@ -3,77 +3,35 @@
 }
 
 .button {
-  background: #5a0bb5;
-  background-image: -webkit-linear-gradient(top, #5a0bb5, #260169);
-  background-image: -moz-linear-gradient(top, #5a0bb5, #260169);
-  background-image: -ms-linear-gradient(top, #5a0bb5, #260169);
-  background-image: -o-linear-gradient(top, #5a0bb5, #260169);
-  background-image: linear-gradient(to bottom, #5a0bb5, #260169);
-  -webkit-border-radius: 11;
-  -moz-border-radius: 11;
-  border-radius: 11px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-  text-align: center;
+    background: #5a0bb5;
+    background-image: -webkit-linear-gradient(top, #5a0bb5, #260169);
+    background-image: -moz-linear-gradient(top, #5a0bb5, #260169);
+    background-image: -ms-linear-gradient(top, #5a0bb5, #260169);
+    background-image: -o-linear-gradient(top, #5a0bb5, #260169);
+    background-image: linear-gradient(to bottom, #5a0bb5, #260169);
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    text-align: center;
 }
 
 .button:hover {
-  background: #893cfc;
-  background-image: -webkit-linear-gradient(top, #893cfc, #8f34d9);
-  background-image: -moz-linear-gradient(top, #893cfc, #8f34d9);
-  background-image: -ms-linear-gradient(top, #893cfc, #8f34d9);
-  background-image: -o-linear-gradient(top, #893cfc, #8f34d9);
-  background-image: linear-gradient(to bottom, #893cfc, #8f34d9);
-  text-decoration: none;
+    background: #893cfc;
+    background-image: -webkit-linear-gradient(top, #893cfc, #8f34d9);
+    background-image: -moz-linear-gradient(top, #893cfc, #8f34d9);
+    background-image: -ms-linear-gradient(top, #893cfc, #8f34d9);
+    background-image: -o-linear-gradient(top, #893cfc, #8f34d9);
+    background-image: linear-gradient(to bottom, #893cfc, #8f34d9);
+    text-decoration: none;
 }
 
-
-/**
- * Chapter list
- */
-.chapter {
-    background: white;
-    padding: 20px;
-    border-radius: 5px;
-    margin-left: 30%;
-    margin-bottom: 20px;
-    
-    .heading {
-        width: 45%;
-        display: inline-block;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
-    .chapter-number {
-        font-size: 24pt;
-    }
-    .title {
-        font-size: 24pt;
-        color: gray;
-        line-height: 120%;
-    }
-    .buttons {
-        display: block;
-        width: 50%;
-        float: right;
-        margin: 10px;
-        margin-bottom: 20px;
-        text-align: right;
-    }
-    .button {
-        display: inline-block;
-        width: 30%;
-        margin-right: 10px;
-        position: relative;
-    }
-    p {
-        em {
-            margin-right: 1px;
-        }
-    }
+.button:visited {
+    color: grey;
 }
 
 /***
