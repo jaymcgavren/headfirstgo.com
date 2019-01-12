@@ -1,12 +1,12 @@
 # Site settings
-title: Head First Ruby
-email: feedback@headfirstruby.com
+title: Head First Go
+email: feedback@headfirstgo.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is the official website for Head First Ruby, written by Jay McGavren and published by O'Reilly Media.
-  You'll find sample code from the book here, as well as ideas to get you started on your own Ruby projects!
+  This is the official website for Head First Go, written by Jay McGavren and published by O'Reilly Media.
+  You'll find sample code from the book here, as well as ideas to get you started on your own Go projects!
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://headfirstruby.com" # the base hostname & protocol for your site
-twitter_username: headfirstruby
+url: "https://headfirstgo.com" # the base hostname & protocol for your site
+twitter_username: headfirstgo
 
 # Build settings
 markdown: kramdown
