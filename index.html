@@ -18,6 +18,10 @@ layout: page
     </div>
   </div>
   <p>
+    <b>Are you ready to turbo-charge your software?</b> Do you want a simple programming language that <em>compiles fast</em>? That <em>runs fast</em>? That makes it <em>easy</em> to distribute your work to users? Then you're ready for Go!
+  </p>
+  <p>
+    Go is a programming language that focuses on <em>simplicity</em> and <em>speed</em>. It's <em>simpler</em> than other languages, so it's <em>quicker</em> to learn. And it lets you harness the power of today's multi-core computer processors, so your programs run faster. This chapter will show you all the Go features that will make your life as a developer <em>easier</em>, and make your users <em>happier</em>.
   </p>
 </div>
 
@@ -37,6 +41,10 @@ layout: page
     </div>
   </div>
   <p>
+    <b>Every program has parts that only apply in certain situations.</b> "This code should run <em>if</em> there's an error. <em>Otherwise</em>, that code should run." Almost every program contains code that should be run only when a certain <em>condition</em> is true. So almost every programming language provides <code>if</code> statements that let you determine whether to run segments of code. Go is no exception.
+  </p>
+  <p>
+    You may also need some parts of your code to run <em>repeatedly</em>. Like most languages, Go provides <code>for</code> loops that run sections of code more than once. We'll learn to use both <code>if</code> and <code>for</code> in this chapter!
   </p>
 </div>
 
@@ -56,6 +64,7 @@ layout: page
     </div>
   </div>
   <p>
+    <b>It's your turn.</b> You've been calling functions like a pro. But the only functions you could call were the ones Go defined for you. In this chapter, we're going to show you how to <em>create your own functions</em>. We'll learn how to declare functions with and without parameters. We'll declare functions that return a single value, and we'll learn how to <em>return multiple values</em> so that we can indicate when there's been an error. And we'll learn about <em>pointers</em>, which allow us to make more memory-efficient function calls.
   </p>
 </div>
 
@@ -75,6 +84,10 @@ layout: page
     </div>
   </div>
   <p>
+    <b>It's time to get organized.</b> So far, we've been throwing all our code together in a single file. As our programs grow bigger and more complex, that's going to quickly become a mess.
+  </p>
+  <p>
+    In this chapter, we'll show you how to <em>create your own packages</em> to help keep related code <em>together in one place</em>. But packages are good for more than just organization. Packages are an easy way to <em>share code between your programs</em>. And they're an easy way to <em>share code with other developers</em>.
   </p>
 </div>
 
@@ -94,6 +107,7 @@ layout: page
     </div>
   </div>
   <p>
+    <b>A whole lot of programs deal with lists of things.</b> Lists of addresses. Lists of phone numbers. Lists of products. Go has two ways of storing lists built-in. This chapter will introduce the first: arrays. You'll learn about how to <em>create arrays</em>, how to <em>fill them with data</em>, and how to <em>get that data back</em> out again. Then you'll learn about processing all the elements in array, first the hard way with <code>for</code> loops, and then the <em>easy</em> way with <code>for ... range</code> loops.
   </p>
 </div>
 
@@ -113,6 +127,7 @@ layout: page
     </div>
   </div>
   <p>
+    <b>We've learned we can't add more elements to an array.</b> That's a real problem for our program, because we don't know in advance how many pieces of data our file contains. But that's where Go <em>slices</em> come in. Slices are a collection type that can <em>grow to hold additional items</em> — just the thing to fix our program! We'll also see how slices can provide an easier way for <em>users to provide data</em> to all your programs, and how they can help you write functions that are more <em>convenient to call</em>.
   </p>
 </div>
 
@@ -132,6 +147,10 @@ layout: page
     </div>
   </div>
   <p>
+    <b>Throwing things in piles is fine, until you need to find something again.</b> You've already seen how to create lists of values using arrays and slices. You've seen how to apply the same operation to every value in an array or slice. But what if you need to <em>work with a particular item</em>? To find it, you'll have to start at the beginning of the array or slice, and look through Every. Single. Value.
+  </p>
+  <p>
+    What if there were a kind of collection where <em>every value had a label</em> on it? You could quickly find <em>just the value you needed</em>! In this chapter, we'll look at <em>maps</em>, which do just that.
   </p>
 </div>
 
@@ -151,6 +170,7 @@ layout: page
     </div>
   </div>
   <p>
+    <b>Sometimes you need to store more than one type of data.</b> We learned about slices, which store a list of values. Then we learned about maps, which map a list of keys to a list of values. But both of these data structures can only hold values of <em>one type</em>. Sometimes, you need to group together values of <em>several</em> types. Think of mailing addresses, where you have to mix street names (strings) with postal codes (integers). Or student records, where you have to mix student names (strings) with grade point averages (floating-point numbers). You can't mix value types in slices or maps. But you can if you use another type called a <em>struct</em>. We'll learn all about structs in this chapter!
   </p>
 </div>
 
@@ -170,6 +190,10 @@ layout: page
     </div>
   </div>
   <p>
+    <b>There's more to learn about defined types.</b> In the previous chapter, we showed you how to define a type with a struct underlying type. What we <em>didn't</em> show you was that you can use <em>any type</em> as an underlying type.
+  </p>
+  <p>
+    And do you remember methods — the special kind of function that's associated with values of a particular type? We've been calling methods on various values throughout the book, but we haven't shown you how to define your <em>own</em> methods. In this chapter, <em>we're going to fix all of that</em>. Let's get started!
   </p>
 </div>
 
@@ -189,6 +213,10 @@ layout: page
     </div>
   </div>
   <p>
+    <b>Mistakes happen.</b> Sometimes, your program will receive invalid data, from user input, a file you're reading in, or elsewhere. In this chapter, you'll learn about encapsulation: a way to <em>protect your struct type's fields</em> from that invalid data. That way you'll know your field data is <em>safe</em> to work with!
+  </p>
+  <p>
+    We'll also show you how to <em>embed</em> other types within your struct type. If your struct type needs methods that already exist on another type, you <em>don't</em> have to copy and paste the method code. You can embed the other type within your struct type, and then use the embedded type's methods <em>just as if they were defined on your own type</em>!
   </p>
 </div>
 
@@ -208,6 +236,10 @@ layout: page
     </div>
   </div>
   <p>
+    <b>Sometimes you don't care about the particular type of a value.</b> You don't care about <em>what it is</em>. You just need to know that it will be able to <em>do certain things</em>. That you'll be able to call certain methods on it. You don't care whether you have a <code>Pen</code> or a <code>Pencil</code>, you just need something with a <code>Draw</code> method. You don't care whether you have a <code>Car</code> or a <code>Boat</code>, you just need something with a <code>Steer</code> method.
+  </p>
+  <p>
+    That's what Go interfaces accomplish. They let you define variables and function parameters that will hold <em>any type</em>, as long as that type defines <em>certain methods</em>.
   </p>
 </div>
 
@@ -227,6 +259,7 @@ layout: page
     </div>
   </div>
   <p>
+    <b>Every program encounters errors. You should plan for them.</b> Sometimes handling an error can be as simple as reporting it and exiting the program. But other errors may require <em>additional action</em>. You may need to close opened files or network connections, or otherwise clean up, so your program doesn't leave a mess behind. In this chapter, we'll show you how to <em>defer</em> cleanup actions so they happen <em>even when there's an error</em>. We'll also show you how to make your program <em>panic</em> in those (rare) situations where it's appropriate, and how to <em>recover</em> afterwards.
   </p>
 </div>
 
@@ -246,6 +279,7 @@ layout: page
     </div>
   </div>
   <p>
+    <b>Working on one thing at a time isn't always the fastest way to finish a task.</b> Some big problems can be broken into smaller tasks. <em>Goroutines</em> let your program <em>work on several different tasks at once</em>. Your goroutines can <em>coordinate their work</em> using <em>channels</em>, which let them <em>send data to each other</em> and <em>synchronize</em> so that one goroutine doesn't get ahead of another. Goroutines let you take full advantage of computers with multiple processors, so that your programs run as <em>fast as possible</em>!
   </p>
 </div>
 
@@ -265,6 +299,7 @@ layout: page
     </div>
   </div>
   <p>
+    <b>Are you sure your software is working right now? Really sure?</b> Before you sent that new version to your users, you presumably tried out the new features to ensure they all worked. But did you try the old features to ensure you didn’t break any of them? <em>All</em> the old features? If that question makes you worry, your program needs <em>automated testing</em>. Automated tests ensure your program’s components <em>work correctly</em>, even after you change your code. Go's <code>testing</code> package and <code>go test</code> tool make it easy to write automated tests, using only the skills that you've already learned!
   </p>
 </div>
 
@@ -284,6 +319,10 @@ layout: page
     </div>
   </div>
   <p>
+    <b>This is the 21st century. Users want web apps.</b> Go’s got you covered there, too! The Go standard library includes packages to help you <em>host your own web applications</em> and make them <em>accessible from any web browser</em>. So we’re going to spend the final two chapters of the book showing you how to build web apps.
+  </p>
+  <p>
+    The first thing your web app needs is the ability to <em>respond</em> when a browser sends it a request. In this chapter, we'll learn to use the <code>net/http</code> package to do just that.
   </p>
 </div>
 
@@ -303,6 +342,10 @@ layout: page
     </div>
   </div>
   <p>
+    <b>Your web app needs to respond with HTML, not plain text.</b> Plain text is fine for e-mails and social media posts. But your pages need to be <em>formatted</em>. They need <em>headings</em> and <em>paragraphs</em>. They need <em>forms</em> where your users can submit data to your app. To do any of that, you need <em>HTML code</em>.
+  </p>
+  <p>
+    And eventually, you'll need to <em>insert data</em> into that HTML code. Which is why Go offers the <code>html/template</code> package, a powerful way to include data in your app's HTML responses. Templates are key to building bigger, better web apps, and in this final chapter, we'll show you how to use them!
   </p>
 </div>
 
@@ -318,6 +361,10 @@ layout: page
     </div>
   </div>
   <p>
+    <b>Some programs need to write data to files, not just read data.</b> Throughout the book, when we've wanted to work with files, you had to create them in your text editor for your programs to read. But some programs generate data, and when they do, they need to be able to <em>write data to a file</em>.
+  </p>
+  <p>
+    We used the <code>os.OpenFile</code> function to open a file for writing earlier in the book. But we didn't have space then to fully explore how it worked. In this appendix, we'll show you everything you need to know in order to <em>use</em> <code>os.OpenFile</code> <em>effectively</em>!
   </p>
 </div>
 
@@ -333,5 +380,6 @@ layout: page
     </div>
   </div>
   <p>
+    <b>We've covered a lot of ground!</b> We'll miss you, but before you go, we wouldn't feel right about sending you out into the world without a little more preparation. We've saved <em>six important topics</em> for this appendix.
   </p>
 </div>
